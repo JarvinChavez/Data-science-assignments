@@ -32,5 +32,4 @@ It covers **data loading, preprocessing, supervised & unsupervised learning, and
 
 ## Project Structure
 
-
---
+---
