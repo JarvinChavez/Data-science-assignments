@@ -32,3 +32,10 @@ It covers **data loading, preprocessing, supervised & unsupervised learning, and
 
 ## Project Structure
 
+project/
+│
+├─ data/ # Raw data files (CSV or ZIP)
+├─ notebooks/ # Jupyter notebooks for analysis
+├─ models/ # Serialized trained models (.joblib)
+├─ scripts/ # Python scripts for processing & modeling
+├─ README.md # Project documentation
