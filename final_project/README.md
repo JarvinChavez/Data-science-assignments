@@ -1,35 +1,45 @@
-# Crash Analysis and Alcohol Involvement Prediction
+# Crash Analysis and Accident Contributing Factors
 
-This project analyzes accident-level data from the **FARS (Fatality Analysis Reporting System)** and predicts alcohol involvement in crashes.  
-It covers **data loading, preprocessing, supervised & unsupervised learning, and visualizations**.
+This project analyzes accident-level data from the **FARS (Fatality Analysis Reporting System)** to explore **how alcohol and other factors (weather, time of day, road conditions) contribute to crashes**.  
+It focuses on **data loading, preprocessing, feature engineering, supervised learning, and exploratory analysis** to understand potential correlations and risk factors.
 
 ---
 
-## Features
+## Objectives
 
-1. **Data Loading and Cleaning**  
+1. **Understand Accident Contributing Factors**  
+   - Identify how alcohol involvement interacts with weather, time, and road conditions  
+   - Explore which factors are most strongly associated with crash severity  
+
+2. **Data Loading and Cleaning**  
    - Automatically finds required CSV files (`ACC_AUX.CSV`, `VEH_AUX.CSV`, `PER_AUX.CSV`)  
    - Supports loading from ZIP archives  
    - Prepares accident- and person-level datasets for analysis  
 
-2. **Alcohol Involvement Label**  
-   - Creates a binary label `alcohol_involved` at the accident level  
-   - Aggregates driver-level alcohol test results to crash-level  
+3. **Feature Engineering**  
+   - Aggregates driver-level alcohol information to accident-level  
+   - Encodes categorical variables (time of day, weather, road type) for analysis  
 
-3. **Supervised Learning**  
-   - Logistic Regression model predicts alcohol involvement  
-   - Provides accuracy, classification report, and feature importance  
+4. **Supervised Learning**  
+   - Logistic Regression predicts the probability that alcohol was involved  
+   - Provides accuracy, classification metrics, and feature importance  
+   - Helps explore relationships between alcohol and contextual factors  
 
-4. **Unsupervised Learning**  
-   - K-Means clustering to explore patterns in crashes  
-   - Clusters accidents by time of day, weather, and road type  
+5. **Exploratory and Unsupervised Analysis**  
+   - K-Means clustering or other techniques to detect patterns in crashes  
+   - Examines how accident characteristics cluster by time, weather, road, and alcohol involvement  
 
-5. **Visualization**  
-   - Distribution plots for alcohol involvement, time of day, and weather  
-   - Annotated for easy interpretation  
+6. **Visualization**  
+   - Distribution plots and correlation charts for alcohol involvement and other factors  
+   - Annotated for clear interpretation of contributing factors  
 
 ---
 
 ## Project Structure
 
 ---
+
+## Notes
+
+- The goal is **not just to predict alcohol involvement**, but to **investigate correlations and potential contributing factors** to crashes.  
+- Supervised models serve as a tool to quantify how alcohol and other variables may increase crash risk in combination with weather, time, and road conditions.
