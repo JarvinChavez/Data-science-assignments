@@ -40,6 +40,7 @@ It focuses on **data loading, preprocessing, feature engineering, supervised lea
 ---
 
 ## Notes
-
+-- Data can be found at https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/2023/National/ the download title "FARS2023NationalAuxiliaryCSV.zip"
+-- Create a folder titled "data" in the main respository and upload the zipfile of the data to run the program.
 - The goal is **not just to predict alcohol involvement**, but to **investigate correlations and potential contributing factors** to crashes.  
 - Supervised models serve as a tool to quantify how alcohol and other variables may increase crash risk in combination with weather, time, and road conditions.
