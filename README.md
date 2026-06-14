@@ -1,25 +1,36 @@
-# Data Science Assignments
+# Data Science — University of St. Thomas
 
-Archive of coursework from my **Data Science** and **Data Analytics** classes at the University of St. Thomas.
+Course projects and assignments from my **Data Science** and **Data Analytics** classes.
 
 ---
 
-## Note
+## Featured project
 
-These are **learning exercises**, not production projects. For portfolio work, see my pinned repositories:
+| Project | Description |
+|---------|-------------|
+| [**final_project/**](final_project/) | **Crash Contributing Factors Analysis** — end-to-end FARS pipeline: data loading, feature engineering, logistic regression, clustering, and visualization |
 
-- [**leetcode-solutions**](https://github.com/JarvinChavez/leetcode-solutions) — structured DSA study log
-- [**icn3d-implementation-proof-of-concept**](https://github.com/JarvinChavez/icn3d-implementation-proof-of-concept) — research integration project
+See [final_project/README.md](final_project/README.md) for setup and objectives.
 
-Featured data science **final projects** will be posted as separate repos soon.
+---
+
+## Related coursework
+
+Homework and lab exercises live in [**related-coursework/**](related-coursework/).
+
+| Assignment | Topic |
+|------------|-------|
+| [homework-1](related-coursework/homework-1/) | Iris EDA |
+| [homework-2](related-coursework/homework-2/) | Naive Bayes classifier |
+| [homework-3](related-coursework/homework-3/) | Linear regression (Weka vs scikit-learn) |
+
+Full index: [related-coursework/README.md](related-coursework/README.md)
 
 ---
 
 ## Stack
 
-- Python
-- Jupyter Notebook
-- pandas, scikit-learn, NumPy
+- Python · Jupyter Notebook · pandas · scikit-learn · NumPy
 
 ---
 
